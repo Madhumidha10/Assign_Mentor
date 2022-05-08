@@ -22,7 +22,7 @@ export default function StudentList() {
   }
 
   useEffect(() => {
-    getInfo();
+    getInfo()},[])
 
   const handleShow = (e) => {
     //get the selected mentor
@@ -113,9 +113,8 @@ export default function StudentList() {
             </tbody>
           </table>
         </div>
-      ) : (
-        ""
-      )}
+      ) :  ""
+      }
     </div>
   );
 }
