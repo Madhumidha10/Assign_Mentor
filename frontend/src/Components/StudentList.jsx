@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
 import { API } from "./Api";
 
 export default function StudentList() {
